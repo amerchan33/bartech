@@ -3,10 +3,12 @@ using System.Threading.Tasks;
 using API.DTOs;
 using API.Helpers;
 using API.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
 {
+    [Authorize]
     public class WorkerController: BaseApiController
     {
         private readonly IWorkerRepository _workerRepository;
