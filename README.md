@@ -63,8 +63,12 @@ GO
 
 
 II)Dentro de API ejecutar : dotnet watch run
-III) dentro de client: ng serve -o
-IV) usuario: alberto.merchan
-    clave: string
+--------------------------------------------
+III) Dentro de client: ng serve -o
+------------------------------------
+IV) Credenciales
+------------------
+usuario: alberto.merchan
+clave: string
 
 
